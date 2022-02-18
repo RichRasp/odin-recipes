@@ -1,0 +1,55 @@
+* {
+    background-color: wheat;
+}
+
+h1 {
+    color: red;
+}
+
+img {
+    height: auto;
+    width: 250px;
+}
+
+#description {
+    background-color: blueviolet;
+}
+
+.ingredient {
+    background-color: green;
+}
+
+.step {
+    background-color: rgb(213, 34, 111);
+}
+
+#description,
+.ingredient,
+.step {
+    color: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+.list {
+    text-align: left;
+}
+
+.content {
+    color:rgb(20, 58, 7);
+    font-weight: 100;
+    font-family: cursive;
+    font-size: 14px;
+}
+
+.lists {
+    color: darkblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
