@@ -5,18 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spagetti Recipe</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        img {
+            height: 250px;
+            width: auto;
+        }
+    </style>
 </head>
 <body>
     <h1>Spagetti</h1>
-    <h6><a href="../index.html">[Homepage]</a> <a href="https://www.google.com"> [Google]</a></h6>
-    <img src="img/spagetti.jpeg" alt="Spagetti with totamo sauce" style="width:250px;height:250px;">
-
-    <h4>Description</h4>
-    <p>I've always loved spagetti, well <em>pastas</em> in general. <strong>Jolibee</strong> had definitely been an influence. Having spagetti on the table is such a good treat</p> 
     
-    <h4>Ingredients</h4>
-        <ul>
+    <h6><a href="../index.html">[Homepage]</a> 
+        <a href="https://www.google.com"> [Google]</a></h6>
+    <img src="img/spagetti.jpeg" alt="Spagetti with totamo sauce">
+
+    <div>
+        <h4 id="description">Description</h4>
+        <p class="content">I've always loved spagetti, well <em>pastas</em> in general. <strong>Jolibee</strong> had definitely been an influence. Having spagetti on the table is such a good treat</p> 
+    </div>
+    
+    <div>
+        <h4 class="ingredient list">Ingredients</h4>
+        <ul class="lists">
             <li>spagetti pasta</li>
             <li>tomato sauce</li>
             <li>tomato paste</li>
@@ -26,29 +37,32 @@
             <li>olive oil</li>
             <li>salt and pepper<li>
         </ul>
+    </div>
 
-    <h4>Steps</h4>
-        <p><strong>Pasta</strong><p>
-        <ol>
-            <li>boil a pot of water</li>
-            <li>add salt</li>
-            <li>add a handfull of spagetti pasta</li>
-            <li>keep stirring till till the pasta soft</li>
-            <li>once the pasta is cooked, drain the water</li>
-            <li>set aside cooked pasta and let it cool</li>
-        </ol>
-        <p><strong>Sauce</strong></p>
-        <ol>
-            
-            <li>get a pan and pour 5 tbp olive oil</li>
-            <li>saute the onion and garlic</li>
-            <li>add ground beef and stir for 5 minutes</li>
-            <li>add tomato sauce and tomato paste</li>
-            <li>keep stirring and cook for 15 minutes</li>
-            <li>season with soal and pepper</li>
-        </ol>
-        <ul>
-            <li>mix the sauce and pasta on a plate, and add cheese of your own choice on top</li>
-        </ul>
+    <div>
+        <h4 class="step list">Steps</h4>
+        <p style="color:rgb(15, 15, 125);font-weight:900;">Pasta<p>
+            <ol class="lists">
+                <li>boil a pot of water</li>
+                <li>add salt</li>
+                <li>add a handfull of spagetti pasta</li>
+                <li>keep stirring till till the pasta soft</li>
+                <li>once the pasta is cooked, drain the water</li>
+                <li>set aside cooked pasta and let it cool</li>
+            </ol>
+        <p style="color:rgb(15, 15, 125);font-weight:900;">Sauce</p>
+            <ol class="lists">
+                
+                <li>get a pan and pour 5 tbp olive oil</li>
+                <li>saute the onion and garlic</li>
+                <li>add ground beef and stir for 5 minutes</li>
+                <li>add tomato sauce and tomato paste</li>
+                <li>keep stirring and cook for 15 minutes</li>
+                <li>season with soal and pepper</li>
+            </ol>
+            <ul>
+                <li>mix the sauce and pasta on a plate, and add cheese of your own choice on top</li>
+            </ul>
+    </div>
 </body>
 </html>
